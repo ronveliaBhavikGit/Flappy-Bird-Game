@@ -1,6 +1,7 @@
 # 🐤 Flappy Bird Game on PSoC 6 (LVGL + FreeRTOS)
 
-A fully functional **Flappy Bird** clone built on the **Infineon PSoC 6 Pioneer Kit** using **LVGL graphics**, **FreeRTOS tasks**, and **CapSense button input**.  
+A fully functional **Flappy Bird** clone built on the **Infineon PSoC 6 Pioneer Kit** using **LVGL graphics**, **FreeRTOS tasks**, and **User button input & Capsense slider input**. 
+
 This project demonstrates real-time multitasking, hardware abstraction, and UI animation — all running on a microcontroller!
 
 ---
@@ -14,8 +15,8 @@ This project demonstrates real-time multitasking, hardware abstraction, and UI a
 - TFT Shield — `CY8CKIT-028-TFT (ST7789V Display Controller)`
 
 **Input:**  
-- CapSense Button (onboard)  
-- User Button 2 (`CYBSP_USER_BTN2`) for jump action
+- User Button 2 (for jump action)
+- CapSense Slider (for Game Screen Brightness)  
 
 **Power:**  
 - USB via KitProg3
